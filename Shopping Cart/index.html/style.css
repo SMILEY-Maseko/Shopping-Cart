@@ -60,3 +60,38 @@ header .icon-cart span{
     letter-spacing: 7px;
     font-size: small;
 }
+.listProduct .item button{
+    background-color: #353432;
+    color: #eee;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+.catTab{
+width: 400px;
+background-color: #353432;
+color: #eee;
+position: fixed;
+inset: 0 0 0  auto ;
+display: grid;
+grid-template-rows: 70px 1fr 70px;
+}
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+
+}
+.cartTab .btn button{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   background-color: #e8bc0e;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+.cartTab .btn .close{
+    background-color: #eee;
+}

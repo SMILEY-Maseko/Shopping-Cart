@@ -86,7 +86,7 @@ grid-template-rows: 70px 1fr 70px;
 .cartTab .btn button{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-   background-color: #e8bc0e;
+   background-color: lightblue;
     border: none;
     font-family: Poppins;
     font-weight: 500;

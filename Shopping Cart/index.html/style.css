@@ -11,7 +11,7 @@ body{
     margin: auto;
     text-align: center;
     padding-top: 10px;
-    transition: transform .5s;
+    transition: transform 0.5s;
 }
 svg{
     width: 30px;
@@ -72,13 +72,17 @@ header .icon-cart span{
 }
 .catTab{
 width: 400px;
-background-color: #353432;
-color: #eee;
+background-color: black;
+color: white;
 position: fixed;
-inset: 0 0 0  auto ;
+top: 0;
+right: 0;
+bottom: 0;
+inset: 0 -400px 0 auto;
 display: grid;
 grid-template-rows: 70px 1fr 70px;
-transition: 5s;
+transition: 0.5s;
+
 }
 body.showCart .cartTab{
     inset: 0 0 0 auto;
@@ -97,7 +101,7 @@ body.showCart .container{
     grid-template-columns: repeat(2, 1fr);
 }
 .cartTab .btn button{
-   background-color: lightblue;
+   background-color: yellowgreen;
     border: none;
     font-family: Poppins;
     font-weight: 500;

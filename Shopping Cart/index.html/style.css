@@ -65,6 +65,7 @@ header .icon-cart span{
     background-color: #353432;
     color: #eee;
     padding: 5px 10px;
+    border-radius: 20px;
     margin-top: 10px;
     border: none;
     cursor: pointer;
@@ -74,7 +75,7 @@ width: 400px;
 background-color: #353432;
 color: #eee;
 position: fixed;
-inset: 0 -400px 0  auto ;
+inset: 0 0 0  auto ;
 display: grid;
 grid-template-rows: 70px 1fr 70px;
 transition: 5s;
@@ -94,12 +95,15 @@ body.showCart .container{
 .cartTab .btn button{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+.cartTab .btn button{
    background-color: lightblue;
     border: none;
     font-family: Poppins;
     font-weight: 500;
     cursor: pointer;
 }
+
 .cartTab .btn .close{
     background-color: #eee;
 }

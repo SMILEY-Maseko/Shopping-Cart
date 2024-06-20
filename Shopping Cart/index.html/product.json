@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Air Force 1",
+        "price": 1499.99,
+        "image": "imageAF.jpg"
+
+    },
+    {
+        "id": 2,
+        "name": "Air Jordan ",
+        "price": 2499.99,
+        "image": "imageAJ.jpg"
+
+    },
+    {
+        "id": 3,
+        "name": "Air Max",
+        "price": 2799.99,
+        "image": "imageAM.jpg"
+
+    },
+    {
+        "id": 4,
+        "name": "Blaze",
+        "price": 1999.99,
+        "image": "imageBL.jpg"
+
+    },
+    {
+        "id": 5,
+        "name": "High Dunk",
+        "price": 2399.99,
+        "image": "imageHD.jpg"
+
+    },
+    {
+        "id": 6,
+        "name": "Low Dunk",
+        "price": 2699.99,
+        "image": "imageLD.jpg"
+
+    },
+    {
+        "id": 7,
+        "name": "Trainners",
+        "price": 599.99,
+        "image": "imageTR.jpg"
+
+    },
+]

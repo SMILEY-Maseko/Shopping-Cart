@@ -39,19 +39,35 @@ header .icon-cart span{
     right: -20px;
 
 }
+
+
+  
+
+.grid-container{
+
+    column-count: 3;
+    column-gap: 40px;
+    column-width: 100px;
+    
+}
+
 .listProduct .item img{
-    width: 90%;
+    width: 100%;
     filter: drop-shadow(0 50px 20px #0009);
+    grid-template-columns: auto auto auto;
 }
 .listProduct{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: auto auto auto;
+    grid-template-columns: 30% auto;
+    grid-template-rows: auto auto;
     gap: 20px;
 }
 .listProduct .item{
     background-color: #eeeee6;
     padding: 20px;
     border-radius: 20px;
+    grid-template-columns: auto auto;
 }
 .listProduct .item h2{
     font-weight: 500;

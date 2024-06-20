@@ -1,28 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=;, initial-scale=1.0">
-  <title>Nikey</title>
-  <link rel="stylesheet" href="style.css"
-</head>
-<body class="showCart">
-  <div class="=container">
-   
-    <header>
-      
-      <div class="title">PRODUCTS</div>
-      <div class="icon-cart">
-        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-          <path fill-rule="evenodd" d="M4 4a1 1 0 0 1 1-1h1.5a1 1 0 0 1 .979.796L7.939 6H19a1 1 0 0 1 .979 1.204l-1.25 6a1 1 0 0 1-.979.796H9.605l.208 1H17a3 3 0 1 1-2.83 2h-2.34a3 3 0 1 1-4.009-1.76L5.686 5H5a1 1 0 0 1-1-1Z" clip-rule="evenodd"/>
-        </svg>
-       <span>0</span>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <p class="logo">LOGO</p>
+      <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+    </div>
+    <div class="container">
+      <div id="root"></div>
+      <div class="sidebar">
+        <div class="head"><p>MY CART</p></div>
+        <div class="cartItem">Your Cart Is Empty</div>
+        <div class="foot">
+          <h3>Total</h3>
+          <h2 id="total">$0.0</h2>
+        </div>
       </div>
-    </header>
-  
-    
-
-
-<script src="app.js"></script>
-</body>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
